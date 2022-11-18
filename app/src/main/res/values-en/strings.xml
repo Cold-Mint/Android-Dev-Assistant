@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Android Dev Assistant</string>
+    <string name="confirm">confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="title_tool">tool</string>
+    <string name="title_collect">collection</string>
+    <string name="title_setting">setting</string>
+    <string name="no_content">Waiting for development.</string>
+    <string name="dimens_file_generation">Dimens  File generation</string>
+    <string name="color_conversion">RGB color to ARGB</string>
+    <string name="source_file">Source file</string>
+    <string name="source_dpi">Source Pixel density (Dpi)</string>
+    <string name="target_dpi">Target pixel density (Dpi)</string>
+    <string name="target_dpi_help">Multiple parameters can be entered. Use commas to separate different densities. To specify sw, label \\" -quantity dp\\".</string>
+    <string name="file_parsing_failed">File parsing failed. Procedure</string>
+    <string name="file_parsing_succeeded">The file is parsed successfully. Procedure</string>
+    <string name="export">export</string>
+    <string name="please_select_the_file_first">Please select the file first.</string>
+    <string name="please_enter_the_dpi">Please enter dpi.</string>
+    <string name="please_enter_the_target_dpi">Please enter the target dpi.</string>
+    <string name="dimens_file_generation_complete_tip">A total of %1$d files need to be exported, and %2$d files are successfully exported. Export directory: %3$s</string>
+    <string name="action_create">create</string>
+    <string name="dimens_file_generation_create_title">Creating a Solution</string>
+    <string name="dimens_file_generation_create_describe">Do you want to create an adaptation for the current device\?</string>
+    <string name="rgb_color">RGB color</string>
+    <string name="transparency">Transparency</string>
+    <string name="conversion">conversion</string>
+    <string name="pick_color">Choose a color</string>
+    <string name="error_details">Error details</string>
+</resources>

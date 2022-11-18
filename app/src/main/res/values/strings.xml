@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Android Dev Assistant</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title_tool">工具</string>
+    <string name="title_collect">收藏</string>
+    <string name="title_setting">设置</string>
+    <string name="dimens_file_generation">Dimens文件生成</string>
+    <string name="color_conversion">RGB颜色转ARGB</string>
+    <string name="source_file">源文件</string>
+    <string name="source_dpi">源像素密度(Dpi)</string>
+    <string name="target_dpi">目标像素密度(Dpi)</string>
+    <string name="target_dpi_help">支持输入多个参数，使用英文逗号分割不同的密度。若需指定sw，请在后面标注\"-数量dp\"。</string>
+    <string name="file_parsing_failed">文件解析失败。</string>
+    <string name="file_parsing_succeeded">文件解析成功。</string>
+    <string name="export">导出</string>
+    <string name="please_select_the_file_first">请先选择文件。</string>
+    <string name="please_enter_the_dpi">请输入dpi。</string>
+    <string name="please_enter_the_target_dpi">请输入目标dpi。</string>
+    <string name="dimens_file_generation_complete_tip">共%1$d个文件需要导出，%2$d个文件导出成功。导出目录：%3$s</string>
+    <string name="action_create">创建</string>
+    <string name="dimens_file_generation_create_title">创建方案</string>
+    <string name="dimens_file_generation_create_describe">要为当前设备创建适配方案吗?</string>
+    <string name="rgb_color">RGB颜色</string>
+    <string name="transparency">透明度</string>
+    <string name="conversion">转换</string>
+    <string name="pick_color">选择颜色</string>
+    <string name="error_details">错误详情</string>
+    <string name="no_content">等待开发</string>
+</resources>

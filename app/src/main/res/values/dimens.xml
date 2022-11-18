@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="margin_small_8dp">8dp</dimen>
+    <dimen name="margin_medium_16dp">16dp</dimen>
+    <dimen name="fab_margin_16dp">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin_16dp">16dp</dimen>
+    <dimen name="activity_vertical_margin_16dp">16dp</dimen>
+    <dimen name="dialog_padding_24dp">24dp</dimen>
+    <dimen name="dialog_color_picker_size_160dp">160dp</dimen>
+    <dimen name="dialog_color_picker_margin_top_20dp">20dp</dimen>
+    <dimen name="dialog_color_picker_slider_height_32dp">32dp</dimen>
+
+
+</resources>
