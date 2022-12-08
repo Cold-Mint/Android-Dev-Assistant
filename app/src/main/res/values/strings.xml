@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android Dev Assistant</string>
+    <string name="app_name">安卓开发助手</string>
     <string name="confirm">确定</string>
     <string name="cancel">取消</string>
     <string name="title_tool">工具</string>
@@ -27,4 +27,9 @@
     <string name="pick_color">选择颜色</string>
     <string name="error_details">错误详情</string>
     <string name="no_content">等待开发</string>
+    <string name="read_clipboard">读取剪切板</string>
+    <string name="read_clipboard_tip">点击下面的按钮，即可从系统中读取出剪切板的内容。</string>
+    <string name="clipboard">剪切板</string>
+    <string name="clipboard_contents">剪切板内容</string>
+    <string name="read_clipboard_fail">读取剪切板失败。</string>
 </resources>

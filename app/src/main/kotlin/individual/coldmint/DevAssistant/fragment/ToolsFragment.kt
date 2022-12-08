@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import individual.coldmint.DevAssistant.ColorConversionActivity
 import individual.coldmint.DevAssistant.DimensFileGenerationActivity
 import individual.coldmint.DevAssistant.R
+import individual.coldmint.DevAssistant.ReadClipboardActivity
 import individual.coldmint.DevAssistant.adapters.ToolsAdapter
 import individual.coldmint.DevAssistant.base.BaseFragment
 import individual.coldmint.DevAssistant.databinding.FragmentToolsBinding
@@ -40,6 +41,7 @@ class ToolsFragment : BaseFragment<FragmentToolsBinding>() {
         val dataList = ArrayList<Int>()
         dataList.add(R.string.dimens_file_generation)
         dataList.add(R.string.color_conversion)
+        dataList.add(R.string.clipboard)
         val adapter = ToolsAdapter(requireContext(), dataList)
         adapter.setListEventLoader { _, i2, itemToolBinding, _ ->
             itemToolBinding.root.setOnClickListener {
@@ -48,6 +50,9 @@ class ToolsFragment : BaseFragment<FragmentToolsBinding>() {
                     startActivity(intent)
                 } else if (i2 == R.string.color_conversion) {
                     val intent = Intent(requireContext(), ColorConversionActivity::class.java)
+                    startActivity(intent)
+                } else if (i2 == R.string.clipboard) {
+                    val intent = Intent(requireContext(), ReadClipboardActivity::class.java)
                     startActivity(intent)
                 }
             }
